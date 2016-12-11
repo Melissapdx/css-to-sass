@@ -109,29 +109,28 @@ a:link, a:visited {
     text-align: left;
     margin-left: 30px; } }
 
-.main-nav li {
-  text-align: center;
-  list-style: none;
-  font-size: 1em;
-  color: #fff;
-  margin-top: 6px;
-  margin-bottom: 6px;
-  font-family: 'Open Sans', sans-serif; }
-  @media (min-width: 768px) {
-    .main-nav li {
-      display: inline;
-      margin-right: 25px;
-      font-size: 1.1em; } }
-  @media (min-width: 1024px) {
-    .main-nav li {
-      float: left; } }
-
 .main-nav {
   padding: 0; }
   @media (min-width: 1024px) {
     .main-nav {
       float: right;
       position: relative; } }
+  .main-nav li {
+    text-align: center;
+    list-style: none;
+    font-size: 1em;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-family: 'Open Sans', sans-serif; }
+    @media (min-width: 768px) {
+      .main-nav li {
+        display: inline;
+        margin-right: 25px;
+        font-size: 1.1em; } }
+    @media (min-width: 1024px) {
+      .main-nav li {
+        float: left; } }
 
 .name-1 {
   text-align: center;
@@ -159,9 +158,10 @@ a:link, a:visited {
   margin-right: 40px;
   color: #9fa8a3; }
 
-@incude mobile {
+@media (min-width: 768px) {
   .name-2 {
     width: 275px; } }
+
 .links {
   visibility: hidden; }
   @media (min-width: 768px) {
